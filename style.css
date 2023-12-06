@@ -1,0 +1,119 @@
+
+.gradient-background {
+    background: linear-gradient(300deg, #2E97A7, #1AACAC,  #362FD9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+body{
+    background-color: EEEEEE;
+}
+
+section#about-me{
+    background: #7DF0A4;
+}
+
+section#contact-info{
+    background: #76E8EA;
+}
+
+section#skills{
+    background: #75EBC5;
+}
+
+#hero-text{
+    background-color: #EEEEEE;
+}
+
+.section-title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    color: whi;
+}
+
+.lead{
+    font-family: 'Noto Sans Linear B', sans-serif;
+}
+
+li{
+    font-family: 'Noto Sans Linear B', sans-serif;
+}
+
+#contact-text{
+    display: flex;
+    justify-content: left;
+}
+
+h3>a{
+    color: white;
+    text-shadow: black 1px 0 10px;
+}
+
+h3>a:hover{
+   color: #7DF0A4;
+}
+
+.about-me-img{
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.lead{
+    padding: 0%;
+}
+
+.skill-image{
+    height: 150px; 
+    width: 150px; 
+    float: left; 
+    margin-right: 30px; 
+    border-radius: 100%; 
+    margin-top: 10px;
+}
+
+li{
+    font-size: 0.7em;
+}
+
+h1{
+    font-weight:500;
+}
+
+h2{
+    font-weight: 400;
+}
+
+h3{
+    font-weight: 500;
+}
+
+.feature-card{
+    background: white;
+    height: 400px;
+}
+
+.btn{
+    margin: 0;
+    justify-content: center;
+    margin-left: 0px;
+    width: 200px;
+
+}
+
+a:hover{
+    color: #7DF0A4 !important;
+ }
