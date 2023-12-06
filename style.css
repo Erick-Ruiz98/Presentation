@@ -117,3 +117,11 @@ h3{
 a:hover{
     color: #7DF0A4 !important;
  }
+
+ #about-me-1{
+    background-image: url('./Images/Code.png');
+ }
+
+ #about-me-3{
+    background-image: url('./Images/UE5.png');
+ }
