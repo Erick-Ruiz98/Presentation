@@ -19,34 +19,51 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="">
     
     <section id="hero">
         <div class="gradient-background">
-            <div class="container col-xxl-8 px-4 py-5">
+      <!--       <div class="container col-xxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                   <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="./Images/man-1839500_1280.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700px" height="500px" loading="lazy">
+                    <img src="./Images/man-1839500_1280.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700px" height="100%" loading="lazy">
                   </div>
-                  <div class="col-lg-6 border pt-5 pb-5 rounded-3" id="hero-text">
+                  <div class="col-xs-12 col-10 col-sm-8 col-lg-6  pt-5 pb-5 rounded-3" id="hero-text">
                     <div class="row">
                       <div class="col-xxl-8 col-sm-8">
                         <h1 class="display-5 fw-bold text-body-white lh-1 mb-3 section-title">Hi! I'm Erick Ruiz</h1>
                         <p class="lead">And I like working with computers.</p>
                       </div>
-                      <div class="col-xxl-3 col-sm-4">
+                      <div class="col-xxl-3 col-sm-4" style="padding: 0;">
                         <img src="./Images/MyPhoto.png" style="height: 100%; width: 100%; border-radius: 100%;" alt="">
                       </div>
                     </div>
-                    
-                   
-                    
-                    
                   </div>
 
                 </div>
            
                 
+            </div> -->
+
+            <div class="container  col-xs-12 py-5">
+            
+              <div class="row row-cols-2 align-items-center" style="justify-content: space-evenly;">
+                
+                <div class=" col-lg-5" style="height: 400px;">
+                  <div class=" row row-cols-2 mt-5" style="height: 10; background: white; border-radius: 2%;">
+                    <div class="col-md-8 my-5">
+                      <h1 class="display-5 fw-bold text-body-white lh-1 mb-3 section-title">Hi! I'm Erick Ruiz</h1>
+                        <p class="lead">And I like working with computers.</p>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="./Images/MyPhoto.png" class="mt-5" style="height: 100px; width: 100px; border-radius: 100%;" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                
+                
+              </div>
             </div>
         </div>
         
@@ -212,9 +229,12 @@
               <h2>Why not send me an electronic letter, my pigeon will let me know of any news.</h2>
               <br>
               <br>
-       
-              <a class="btn btn-primary my-3 mx-4" href="mailto:erick.ruiz.dev@gmail.com">Contact Me</a>
-              <a class="btn btn-secondary " href="./CV.html">Have a look at my CV</a>
+              
+              <div class="mb-4" style="display: flex; justify-content: space-evenly;"> 
+                <a class="btn btn-primary" href="mailto:erick.ruiz.dev@gmail.com">Contact Me</a>
+                <a class="btn btn-secondary " href="./CV.html" style="margin: 0;">Have a look at my CV</a>
+              </div>
+            
           </div>
           <div class="col-lg-5  rounded-3">
             <img src="./Images/Contact_Me.png" class="rounded-3" style="height: 100%; width: 100%; " alt="">
